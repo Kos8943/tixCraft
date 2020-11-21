@@ -25,15 +25,16 @@
       }
 
       body {
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: "Noto Sans TC", sans-serif;
       }
       .searchInput {
         border-radius: 10px;
         border: 1px solid #bbb;
+        width: 150px;
         height: 23px;
         margin-right: 10px;
       }
-
+      /* 語言選擇紐 */
       .languageChange {
         border: 1px solid #ccc;
         background-color: #eee;
@@ -59,14 +60,94 @@
         background-color: #faf;
         text-align: right;
       }
+
+      .navLine {
+        width: 100%;
+        height: 1px;
+        background-color: #ddd;
+        opacity: 0.7;
+      }
+
+      .navbarFont {
+        width: 292px;
+        height: 46px;
+        padding: 12px;
+        font-size: 1.125rem;
+        text-align: center;
+        font-weight: bold;
+        color: #777;
+        transition: 0.5s;
+      }
+
+      .navbarFont:hover {
+        background-color: #337ab7;
+        color: #eee;
+      }
+
+      .carouselImgsArea {
+        margin-left: -765px;
+        width: 2685px;
+        overflow: hidden;
+      }
+
+      .carouselImgs {
+        width: 1140px;
+        height: 496px;
+        margin: 0 10px 10px 0;
+      }
+
+      .carouselCircle {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #bbb;
+        margin: 0 10px 20px 0;
+      }
+
+      .newsBotton {
+          margin-bottom: 50px;
+      }
+
+      .newsTitleLine {
+        width: 100%;
+        border-bottom: 5px solid #eee;
+      }
+
+      .newsArea {
+        margin: 0 0 6px -15px;
+      }
+
+      .noeNewsArea {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 6px;
+      }
+
+      .lebelFont {
+        width: 95px;
+        height: 22px;
+        font-size: 0.75rem;
+        background-color: #3da3df;
+        color: #eee;
+        font-weight: bold;
+        padding: 1px 4px 1px 4px;
+        border-radius: 5px;
+      }
+
+      .newsFont {
+        color: #3372bc;
+        font-size: 0.9375rem;
+      }
     </style>
   </head>
   <body>
-    <div class="container">
+    <!-- navbar -->
+    <div class="container mb-1">
       <div class="d-flex pt-2">
         <div>
           <img src="./imgs/tixcraft.png" />
         </div>
+
+        <!-- 語言選擇 -->
         <div class="ml-auto">
           <div class="d-flex">
             <div>
@@ -88,6 +169,115 @@
         </div>
       </div>
     </div>
+
+    <div class="navLine"></div>
+
+    <!-- navbar選單 -->
+    <div class="d-flex justify-content-center">
+      <a href="" style="text-decoration: none"
+        ><div class="navbarFont">Events</div></a
+      >
+      <a href="" style="text-decoration: none"
+        ><div class="navbarFont">News</div></a
+      >
+      <a href="" style="text-decoration: none"
+        ><div class="navbarFont">FAQ</div></a
+      >
+      <a href="" style="text-decoration: none"
+        ><div class="navbarFont">Order History</div></a
+      >
+    </div>
+
+    <!-- carousel -->
+    <div class="carouselImgsArea">
+      <div class="d-flex">
+        <div><img class="carouselImgs" src="./imgs/carousel9.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel10.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel2.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel3.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel4.png" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel5.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel6.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel7.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel8.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel9.jpg" /></div>
+        <div><img class="carouselImgs" src="./imgs/carousel10.jpg" /></div>
+      </div>
+    </div>
+
+    <!-- carousel 下的圓圈 -->
+    <div class="d-flex justify-content-center">
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+      <div class="carouselCircle"></div>
+    </div>
+
+    <!-- 新聞 -->
+    <div class="container">
+      <div class="row newsBotton">
+        <span>News</span>
+        <span class="ml-auto">more</span>
+        <div class="newsTitleLine"></div>
+        <div class="col-6 newsArea">
+          <div class="noeNewsArea">
+            <a href="" style="text-decoration: none">
+              <span class="lebelFont">Announcement</span>
+              <span class="newsFont">tixCraft membership rules</span>
+            </a>
+          </div>
+          <div class="noeNewsArea">
+            <a href="" style="text-decoration: none">
+              <span class="lebelFont">Announcement</span>
+              <span class="newsFont">拓元會員加入辦法</span>
+            </a>
+          </div>
+          <div class="noeNewsArea">
+            <a href="" style="text-decoration: none">
+              <span class="newsFont"
+                >【演出延期支票物辦法公告】　怪奇比莉2020台北演唱會</span
+              >
+            </a>
+          </div>
+          <div class="noeNewsArea">
+            <a href="" style="text-decoration: none">
+              <span class="newsFont">【體育活動專區】</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="noeNewsArea">
+            <a href="" style="text-decoration: none">
+              <span class="newsFont"
+                >【演出延期之票務辦法公告】ONE OK ROCK EYE OF THE STORM ASIA
+                TOUR 2020</span
+              >
+            </a>
+          </div>
+          <div class="noeNewsArea">
+            <a href="" style="text-decoration: none">
+              <span class="newsFont"
+                >【演出延期之票務辦法公告】TANYA 蔡健雅 ＜給世界最悠長的吻＞
+                2020 巡迴演唱會</span
+              >
+            </a>
+          </div>
+          <div class="noeNewsArea">
+            <a href="" style="text-decoration: none">
+              <span class="newsFont"
+                >【演出延期之票務辦法公告】GREEN DAY年輕歲月2020台北演唱會</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script></script>
   </body>
 </html>
