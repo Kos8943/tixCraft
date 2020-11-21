@@ -86,14 +86,14 @@
 
       .carouselImgsArea {
         margin-left: -765px;
-        width: 2685px;
+        width: 2668px;
         overflow: hidden;
       }
 
       .carouselImgs {
         width: 1140px;
         height: 496px;
-        margin: 0 10px 10px 0;
+        padding: 0 10px;
       }
 
       .carouselCircle {
@@ -101,11 +101,11 @@
         height: 12px;
         border-radius: 50%;
         background-color: #bbb;
-        margin: 0 10px 20px 0;
+        margin: 10px 10px 20px 0;
       }
 
       .newsBotton {
-          margin-bottom: 50px;
+        margin-bottom: 50px;
       }
 
       .newsTitleLine {
@@ -136,6 +136,104 @@
       .newsFont {
         color: #3372bc;
         font-size: 0.9375rem;
+      }
+
+      .eventsBackgroundColor {
+        background-color: #f8f8f8;
+      }
+
+      .recentSelect {
+        width: 89px;
+        height: 41px;
+        background-color: #eee;
+        text-align: center;
+        border-radius: 4px;
+        padding: 10px 12px;
+        color: #d92018;
+        margin: 5px 10px;
+      }
+
+      .recentArea {
+        /* background-color: #faf; */
+        padding: 20px 40px;
+      }
+
+      .recentCardArea {
+        padding: 5px;
+      }
+
+      .recentCard {
+        width: 342px;
+        border: 1px solid #ddd;
+      }
+
+      .recentImg {
+        width: 340px;
+        height: 153px;
+      }
+
+      .recentFont {
+        margin: 0;
+        font-size: 0.875rem;
+        color: #252525;
+      }
+
+      .recentFontName {
+        margin: 0 0 20px 0;
+        font-size: 0.875rem;
+        color: #252525;
+      }
+
+      .footer {
+        background-color: #333333;
+        width: 100%;
+        height: 153px;
+        padding: 14px 0 0 0;
+      }
+
+      .footerFont {
+        color: #fff;
+        font-size: 0.9375rem;
+      }
+
+      .footerLogo {
+        margin: 30px 0;
+      }
+
+      .footerImg {
+          background-color: #fff;
+          padding: 5px;
+      }
+
+      .footerImgFont {
+          color: #000;
+          margin: 0;
+          text-align: center;
+      }
+
+      .footerInfo {
+          margin: 5px 20px;
+          font-size: .75rem;
+          color: #fff;
+      }
+
+      .footerInfo1 {
+          margin: 5px 0 0 80px;
+          font-size: .75rem;
+          color: #fff;
+      }
+
+      .footer2 {
+        background-color: #252525;
+        width: 100%;
+        height: 53px;
+        margin: 0;
+      }
+
+      .footer2Info {
+          color: #fff;
+          padding: 15px 0;
+          font-size: .8125rem;
       }
     </style>
   </head>
@@ -190,7 +288,7 @@
 
     <!-- carousel -->
     <div class="carouselImgsArea">
-      <div class="d-flex">
+      <div class="d-flex carouselImgsWidth">
         <div><img class="carouselImgs" src="./imgs/carousel9.jpg" /></div>
         <div><img class="carouselImgs" src="./imgs/carousel10.jpg" /></div>
         <div><img class="carouselImgs" src="./imgs/carousel2.jpg" /></div>
@@ -275,6 +373,135 @@
             </a>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- 活動 -->
+    <div class="eventsBackgroundColor">
+      <div class="container">
+        <span>Events</span>
+        <span class="ml-auto">more</span>
+        <div class="newsTitleLine"></div>
+
+        <div class="recentSelect">Recent</div>
+
+        <!-- 活動卡片 -->
+        <div class="recentArea">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+              <div class="recentCard">
+                <a href="" style="text-decoration: none">
+                  <div><img class="recentImg" src="./imgs/hotnew5.png" /></div>
+                  <p class="recentFont">2020/11/28(Sat.)~2020/12/05(Sat.)</p>
+                  <p class="recentFontName">
+                    麋先生 LOVEHOLIC 【嗜愛動物】巡迴演唱會
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+              <div class="recentCard">
+                <a href="" style="text-decoration: none">
+                  <div><img class="recentImg" src="./imgs/hotnew4.jpg" /></div>
+                  <p class="recentFont">2020/11/28(Sat.)~2020/12/05(Sat.)</p>
+                  <p class="recentFontName">
+                    麋先生 LOVEHOLIC 【嗜愛動物】巡迴演唱會
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+              <div class="recentCard">
+                <a href="" style="text-decoration: none">
+                  <div><img class="recentImg" src="./imgs/hotnew3.jpg" /></div>
+                  <p class="recentFont">2020/11/28(Sat.)~2020/12/05(Sat.)</p>
+                  <p class="recentFontName">
+                    麋先生 LOVEHOLIC 【嗜愛動物】巡迴演唱會
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+              <div class="recentCard">
+                <a href="" style="text-decoration: none">
+                  <div><img class="recentImg" src="./imgs/hotnew2.jpg" /></div>
+                  <p class="recentFont">2020/11/28(Sat.)~2020/12/05(Sat.)</p>
+                  <p class="recentFontName">
+                    麋先生 LOVEHOLIC 【嗜愛動物】巡迴演唱會
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+              <div class="recentCard">
+                <a href="" style="text-decoration: none">
+                  <div><img class="recentImg" src="./imgs/hotnew10.jpg" /></div>
+                  <p class="recentFont">2020/11/28(Sat.)~2020/12/05(Sat.)</p>
+                  <p class="recentFontName">
+                    麋先生 LOVEHOLIC 【嗜愛動物】巡迴演唱會
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+              <div class="recentCard">
+                <a href="" style="text-decoration: none">
+                  <div><img class="recentImg" src="./imgs/hotnew1.jpg" /></div>
+                  <p class="recentFont">2020/11/28(Sat.)~2020/12/05(Sat.)</p>
+                  <p class="recentFontName">
+                    麋先生 LOVEHOLIC 【嗜愛動物】巡迴演唱會
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <span class="footerFont">|</span>
+            <a href="" style="text-decoration: none" class="footerFont"
+              ><span>關於拓元</span></a
+            >
+            <span class="footerFont">|</span>
+            <a href="" style="text-decoration: none" class="footerFont"
+              ><span>會員服務條款</span></a
+            >
+            <span class="footerFont">|</span>
+            <a href="" style="text-decoration: none" class="footerFont"
+              ><span>隱私權政策</span></a
+            >
+            <span class="footerFont">|</span>
+            <div class="footerLogo"><img src="./imgs/footer-logo.png" /></div>
+          </div>
+          <div class="col-6 d-flex">
+              <div class="footerImg">
+                  <a href="">
+                    <img src="./imgs/1.png" />
+                    <p class="footerImgFont">文300002</p>
+                  </a>
+              </div>
+
+              <div>
+                  <p class="footerInfo">拓元股份有限公司 版權所有 tixCraft Inc. All Rights Reserved.</p>
+                  <p class="footerInfo">客服專線：+886 (02) 8772-9835</p>
+                  <p class="footerInfo">客服時間：週一 ~ 週五 10:00-12:30 13:30-18:00 </p>
+                  <p class="footerInfo1">(適逢國定假日暫停服務)</p>
+                  <p class="footerInfo">客服信箱：tixcraft@tixcraft.com</p>
+              </div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer2">
+      <div class="container">
+          <div class="footer2Info">© tixCraft</div>
+        
       </div>
     </div>
 
