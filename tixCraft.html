@@ -57,8 +57,11 @@
       }
 
       .login {
-        background-color: #faf;
+        /* background-color: #faf; */
         text-align: right;
+        font-size: 13px;
+        color: #777;
+        padding-right: 5px;
       }
 
       .navLine {
@@ -74,8 +77,9 @@
         padding: 12px;
         font-size: 1.125rem;
         text-align: center;
-        font-weight: bold;
+        /* font-weight: bold; */
         color: #777;
+        letter-spacing: 2px;
         transition: 0.5s;
       }
 
@@ -84,9 +88,14 @@
         color: #eee;
       }
 
-      .carouselImgsArea {
+      .carouselArea {
+        width: 60%;
+        margin: 0 auto 50px auto;
+      }
+
+      /* .carouselImgsArea {
         margin-left: -765px;
-        width: 2668px;
+        width: 140.2vw;
         overflow: hidden;
       }
 
@@ -94,7 +103,7 @@
         width: 1140px;
         height: 496px;
         padding: 0 10px;
-      }
+      } */
 
       .carouselCircle {
         width: 12px;
@@ -201,26 +210,26 @@
       }
 
       .footerImg {
-          background-color: #fff;
-          padding: 5px;
+        background-color: #fff;
+        padding: 5px;
       }
 
       .footerImgFont {
-          color: #000;
-          margin: 0;
-          text-align: center;
+        color: #000;
+        margin: 0;
+        text-align: center;
       }
 
       .footerInfo {
-          margin: 5px 20px;
-          font-size: .75rem;
-          color: #fff;
+        margin: 5px 20px;
+        font-size: 0.75rem;
+        color: #fff;
       }
 
       .footerInfo1 {
-          margin: 5px 0 0 80px;
-          font-size: .75rem;
-          color: #fff;
+        margin: 5px 0 0 80px;
+        font-size: 0.75rem;
+        color: #fff;
       }
 
       .footer2 {
@@ -231,9 +240,181 @@
       }
 
       .footer2Info {
-          color: #fff;
-          padding: 15px 0;
-          font-size: .8125rem;
+        color: #fff;
+        padding: 15px 0;
+        font-size: 0.8125rem;
+      }
+
+      @media (max-width: 1599px) {
+        .navbarFont {
+          width: 227px;
+          height: 46px;
+          padding: 12px;
+          font-size: 18px;
+          text-align: center;
+          /* font-weight: bold; */
+          color: #777;
+        }
+
+        .carouselArea {
+          width: 70%;
+          margin: 0 auto 50px auto;
+        }
+
+        /* .carouselImgsArea {
+          margin-left: -550px;
+          width: 133.3vw;
+          overflow: hidden;
+        }
+
+        .carouselImgs {
+          width: 880px;
+          height: 383px;
+          padding: 0 10px;
+        } */
+
+        .noeNewsArea {
+          border-bottom: 1px solid #eee;
+          padding-bottom: 6px;
+        }
+
+        .newsFont {
+          color: #3372bc;
+          font-size: 14px;
+        }
+      }
+
+      @media (max-width: 1199px) {
+        .navbarFont {
+          width: 227px;
+          height: 46px;
+          padding: 12px;
+          font-size: 18px;
+          text-align: center;
+          /* font-weight: bold; */
+          color: #777;
+        }
+
+        .carouselArea {
+          width: 70%;
+          margin: 0 auto 50px auto;
+        }
+
+        .lebelFont {
+          font-size: 12px;
+        }
+
+        .newsFont {
+          font-size: 13.5px;
+        }
+
+        .recentCardArea {
+          padding: 5px;
+        }
+
+        .recentCard {
+          width: 271px;
+          border: 1px solid #ddd;
+        }
+
+        .recentImg {
+          width: 269px;
+          height: 117px;
+        }
+
+        .recentFont {
+          margin: 0;
+          font-size: 14px;
+          color: #252525;
+        }
+      }
+
+      @media (max-width: 991px) {
+        .navbarFont {
+          width: 187px;
+          height: 46px;
+          padding: 12px;
+          font-size: 18px;
+          text-align: center;
+          /* font-weight: bold; */
+          color: #777;
+        }
+
+        .carouselArea {
+          width: 70%;
+          margin: 0 auto 50px auto;
+        }
+
+        .recentCardArea {
+          padding: 5px;
+        }
+
+        .recentCard {
+          width: 307px;
+          border: 1px solid #ddd;
+        }
+
+        .recentImg {
+          width: 305px;
+          height: 145px;
+        }
+
+        .recentFont {
+          margin: 0;
+          font-size: 14px;
+          color: #252525;
+        }
+      }
+
+      @media (max-width: 775px) {
+        .navbarFont {
+          width: 100%;
+          height: 46px;
+          padding: 12px;
+          font-size: 18px;
+          text-align: center;
+          /* font-weight: bold; */
+          color: #777;
+        }
+
+        .recentCardArea {
+          padding: 5px;
+        }
+
+        .recentCard {
+          width: 100%;
+          border: 1px solid #ddd;
+        }
+
+        .recentImg {
+          width: 100%;
+          height: 222px;
+        }
+
+        .recentFont {
+          margin: 0;
+          font-size: 14px;
+          color: #252525;
+        }
+
+        .footer {
+          background-color: #333333;
+          width: 100%;
+          height: 400px;
+          padding: 14px 0 0 0;
+        }
+
+        .footerFontCenter {
+          text-align: center;
+        }
+
+        .footerImg {
+          width: 110px;
+          height: 122px;
+          background-color: #fff;
+          padding: 5px;
+          margin: auto;
+        }
       }
     </style>
   </head>
@@ -263,7 +444,7 @@
               >
             </div>
           </div>
-          <div class="login">Log in</div>
+          <div class="login">會員登入</div>
         </div>
       </div>
     </div>
@@ -273,21 +454,80 @@
     <!-- navbar選單 -->
     <div class="d-flex justify-content-center">
       <a href="" style="text-decoration: none"
-        ><div class="navbarFont">Events</div></a
+        ><div class="navbarFont">節目資訊</div></a
       >
       <a href="" style="text-decoration: none"
-        ><div class="navbarFont">News</div></a
+        ><div class="navbarFont">最新消息</div></a
       >
       <a href="" style="text-decoration: none"
-        ><div class="navbarFont">FAQ</div></a
+        ><div class="navbarFont">常見問題</div></a
       >
       <a href="" style="text-decoration: none"
-        ><div class="navbarFont">Order History</div></a
+        ><div class="navbarFont">訂單查詢</div></a
       >
     </div>
 
     <!-- carousel -->
-    <div class="carouselImgsArea">
+    <div class="carouselArea">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./imgs/carousel10.jpg"
+              class="d-block w-100 mx-auto"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imgs/carousel2.jpg"
+              class="d-block w-100 mx-auto"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imgs/carousel3.jpg"
+              class="d-block w-100 mx-auto"
+              alt="..."
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- <div class="carouselImgsArea">
       <div class="d-flex carouselImgsWidth">
         <div><img class="carouselImgs" src="./imgs/carousel9.jpg" /></div>
         <div><img class="carouselImgs" src="./imgs/carousel10.jpg" /></div>
@@ -301,10 +541,10 @@
         <div><img class="carouselImgs" src="./imgs/carousel9.jpg" /></div>
         <div><img class="carouselImgs" src="./imgs/carousel10.jpg" /></div>
       </div>
-    </div>
+    </div> -->
 
     <!-- carousel 下的圓圈 -->
-    <div class="d-flex justify-content-center">
+    <!-- <div class="d-flex justify-content-center">
       <div class="carouselCircle"></div>
       <div class="carouselCircle"></div>
       <div class="carouselCircle"></div>
@@ -314,24 +554,24 @@
       <div class="carouselCircle"></div>
       <div class="carouselCircle"></div>
       <div class="carouselCircle"></div>
-    </div>
+    </div> -->
 
     <!-- 新聞 -->
     <div class="container">
       <div class="row newsBotton">
-        <span>News</span>
-        <span class="ml-auto">more</span>
+        <span>最新消息</span>
+        <span class="ml-auto">更多</span>
         <div class="newsTitleLine"></div>
-        <div class="col-6 newsArea">
+        <div class="col-md-6 col-sm-6 col-xs-12 newsArea">
           <div class="noeNewsArea">
             <a href="" style="text-decoration: none">
-              <span class="lebelFont">Announcement</span>
+              <span class="lebelFont">系統公告</span>
               <span class="newsFont">tixCraft membership rules</span>
             </a>
           </div>
           <div class="noeNewsArea">
             <a href="" style="text-decoration: none">
-              <span class="lebelFont">Announcement</span>
+              <span class="lebelFont">系統公告</span>
               <span class="newsFont">拓元會員加入辦法</span>
             </a>
           </div>
@@ -348,7 +588,7 @@
             </a>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-sm-6 col-xs-12" style="margin-left: -15px">
           <div class="noeNewsArea">
             <a href="" style="text-decoration: none">
               <span class="newsFont"
@@ -379,16 +619,16 @@
     <!-- 活動 -->
     <div class="eventsBackgroundColor">
       <div class="container">
-        <span>Events</span>
-        <span class="ml-auto">more</span>
+        <span>節目資訊</span>
+        <span class="ml-auto">更多</span>
         <div class="newsTitleLine"></div>
 
-        <div class="recentSelect">Recent</div>
+        <div class="recentSelect">近期演出</div>
 
         <!-- 活動卡片 -->
         <div class="recentArea">
           <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+            <div class="col-lg-4 col-sm-12 col-xs-12 recentCardArea">
               <div class="recentCard">
                 <a href="" style="text-decoration: none">
                   <div><img class="recentImg" src="./imgs/hotnew5.png" /></div>
@@ -399,7 +639,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+            <div class="col-lg-4 col-sm-12 col-xs-12 recentCardArea">
               <div class="recentCard">
                 <a href="" style="text-decoration: none">
                   <div><img class="recentImg" src="./imgs/hotnew4.jpg" /></div>
@@ -410,7 +650,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+            <div class="col-lg-4 col-sm-12 col-xs-12 recentCardArea">
               <div class="recentCard">
                 <a href="" style="text-decoration: none">
                   <div><img class="recentImg" src="./imgs/hotnew3.jpg" /></div>
@@ -421,7 +661,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+            <div class="col-lg-4 col-sm-12 col-xs-12 recentCardArea">
               <div class="recentCard">
                 <a href="" style="text-decoration: none">
                   <div><img class="recentImg" src="./imgs/hotnew2.jpg" /></div>
@@ -432,7 +672,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+            <div class="col-lg-4 col-sm-12 col-xs-12 recentCardArea">
               <div class="recentCard">
                 <a href="" style="text-decoration: none">
                   <div><img class="recentImg" src="./imgs/hotnew10.jpg" /></div>
@@ -443,7 +683,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 recentCardArea">
+            <div class="col-lg-4 col-sm-12 col-xs-12 recentCardArea">
               <div class="recentCard">
                 <a href="" style="text-decoration: none">
                   <div><img class="recentImg" src="./imgs/hotnew1.jpg" /></div>
@@ -462,7 +702,7 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-4 col-12 footerFontCenter">
             <span class="footerFont">|</span>
             <a href="" style="text-decoration: none" class="footerFont"
               ><span>關於拓元</span></a
@@ -478,33 +718,50 @@
             <span class="footerFont">|</span>
             <div class="footerLogo"><img src="./imgs/footer-logo.png" /></div>
           </div>
-          <div class="col-6 d-flex">
-              <div class="footerImg">
-                  <a href="">
-                    <img src="./imgs/1.png" />
-                    <p class="footerImgFont">文300002</p>
-                  </a>
-              </div>
-
-              <div>
-                  <p class="footerInfo">拓元股份有限公司 版權所有 tixCraft Inc. All Rights Reserved.</p>
-                  <p class="footerInfo">客服專線：+886 (02) 8772-9835</p>
-                  <p class="footerInfo">客服時間：週一 ~ 週五 10:00-12:30 13:30-18:00 </p>
-                  <p class="footerInfo1">(適逢國定假日暫停服務)</p>
-                  <p class="footerInfo">客服信箱：tixcraft@tixcraft.com</p>
-              </div>
-              
+          <div class="col-12 col-lg-8 d-lg-flex">
+            <div class="footerImg">
+              <a href="">
+                <img src="./imgs/1.png" />
+                <p class="footerImgFont">文300002</p>
+              </a>
             </div>
+
+            <div class="col-lg-6 col-12">
+              <p class="footerInfo">
+                拓元股份有限公司 版權所有 tixCraft Inc. All Rights Reserved.
+              </p>
+              <p class="footerInfo">客服專線：+886 (02) 8772-9835</p>
+              <p class="footerInfo">
+                客服時間：週一 ~ 週五 10:00-12:30 13:30-18:00
+              </p>
+              <p class="footerInfo1">(適逢國定假日暫停服務)</p>
+              <p class="footerInfo">客服信箱：tixcraft@tixcraft.com</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="footer2">
       <div class="container">
-          <div class="footer2Info">© tixCraft</div>
-        
+        <div class="footer2Info">© tixCraft</div>
       </div>
     </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
     <script></script>
   </body>
 </html>
